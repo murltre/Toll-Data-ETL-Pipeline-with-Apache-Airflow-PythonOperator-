@@ -27,7 +27,7 @@ PROJECT_DIR = AIRFLOW_HOME / "dags" / "python_etl"
 STAGING_DIR = PROJECT_DIR / "staging"
 ARCHIVE_PATH = STAGING_DIR / "tolldata.tgz"
 
-# Dataset published for the IBM Skills Network toll-data ETL lab.
+# Dataset toll-data ETL.
 SOURCE_URL = (
     "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/"
     "IBM-DB0250EN-SkillsNetwork/labs/Final%20Assignment/tolldata.tgz"
